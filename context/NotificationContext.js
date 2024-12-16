@@ -16,7 +16,7 @@ export const NotificationProvider = ({ children }) => {
       id: 2,
       type: 'promotion',
       title: 'Promoção Relâmpago!',
-      message: 'Aproveite 50% de desconto em todos os produtos da categoria eletrônicos por 24 horas!',
+      message: 'Aproveite 50% de desconto em todos os produtos por 24 horas!',
       date: '2023-11-22',
       read: false
     },
@@ -24,7 +24,7 @@ export const NotificationProvider = ({ children }) => {
       id: 3,
       type: 'newProduct',
       title: 'Novo Produto Disponível!',
-      message: 'O novo smartphone X20 acaba de chegar! Adquira já o seu.',
+      message: 'Um novo produto acaba de chegar! Adquira já o seu.',
       image: 'https://suaempresa.com/produtos/x20.jpg',
       date: '2023-11-21',
       read: false
